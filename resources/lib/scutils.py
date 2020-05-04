@@ -1395,7 +1395,7 @@ class KODISCLib(xbmcprovider.XBMCMultiResolverContentProvider):
                         except:
                             util.debug('[SC] LastActivityList problem')
                             alres = {
-                                'moveies': [],
+                                'movie': [],
                                 'series': []
                             }
                             self.cache.set('lastActivity', repr(None))
